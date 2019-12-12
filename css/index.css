@@ -137,6 +137,8 @@ body {
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  margin: 5%;
+  background-color: #daa520;
 }
 h1,
 h2,
@@ -146,23 +148,47 @@ h4 {
   color: black;
 }
 p {
-  line-height: 1.25;
-  margin: 20px;
-  font-size: 1.8rem;
+  font-size: 16px;
 }
-header {
-  border-botton: 1px solid black;
-  margin: 20px 0;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.main-content {
-  max-width: 500px;
-  margin: 0 auto;
-  font-size: 1.8rem;
+ul {
+  font-size: 16px;
 }
 img {
-  width: 12%;
-  height: 20%;
+  width: 50%;
+  height: 30%;
+}
+.navigation div.link nav a {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-size: 14px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  padding: 2%;
+  margin-left: 60%;
+  background-color: #dcdcdc;
+}
+.main-content {
+  background-color: #00ffff;
+}
+.top-section {
+  border-bottom: 1px solid black;
+  margin-top: 2%;
+}
+.top-section h1 {
+  margin-top: 2%;
+  font-size: 30px;
+}
+.top-section h3 {
+  margin-top: 2%;
+}
+.top-section2 p {
+  margin-top: 1%;
+}
+.button-parent {
+  margin-top: 2%;
 }
