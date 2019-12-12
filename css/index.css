@@ -153,6 +153,10 @@ p {
 ul {
   font-size: 16px;
 }
+.margin {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 img {
   width: 50%;
   height: 30%;
@@ -191,4 +195,33 @@ nav {
 }
 .button-parent {
   margin-top: 2%;
+}
+.lets-team-up {
+  background-color: #f4a460;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.child1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 50%;
+}
+.child1 h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.child2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 20%;
+}
+.middle-section {
+  display: flex;
 }
