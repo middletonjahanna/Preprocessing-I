@@ -1,1 +1,227 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 5%;
+  background-color: #daa520;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: 2rem;
+  color: black;
+}
+p {
+  font-size: 16px;
+}
+ul {
+  font-size: 16px;
+}
+.margin {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+img {
+  width: 50%;
+  height: 30%;
+}
+.navigation div.link nav a {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-size: 14px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  padding: 2%;
+  margin-left: 60%;
+  background-color: #dcdcdc;
+}
+.main-content {
+  background-color: #00ffff;
+}
+.top-section {
+  border-bottom: 1px solid black;
+  margin-top: 2%;
+}
+.top-section h1 {
+  margin-top: 2%;
+  font-size: 30px;
+}
+.top-section h3 {
+  margin-top: 2%;
+}
+.top-section2 p {
+  margin-top: 1%;
+}
+.button-parent {
+  margin-top: 2%;
+}
+.lets-team-up {
+  background-color: #f4a460;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+.child1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 50%;
+}
+.child1 h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.child2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 20%;
+}
+.middle-section {
+  display: flex;
+}
