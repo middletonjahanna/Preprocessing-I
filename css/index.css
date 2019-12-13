@@ -225,3 +225,46 @@ nav {
 .middle-section {
   display: flex;
 }
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.work {
+  margin-bottom: 10%;
+}
+.years {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.tech-used {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+}
