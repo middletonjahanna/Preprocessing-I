@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -186,9 +186,6 @@ nav {
   margin-top: 2%;
   padding-left: 3rem;
 }
-.top-section2 {
-  padding-left: 3rem;
-}
 .top-section h1 {
   margin-top: 2%;
   font-size: 30px;
@@ -196,8 +193,15 @@ nav {
 .top-section h3 {
   margin-top: 2%;
 }
+.top-section img {
+  margin-top: 2%;
+}
+.top-section2 {
+  padding-left: 3rem;
+}
 .top-section2 p {
   margin-top: 1%;
+  font-size: 16px;
 }
 .button-parent {
   margin-top: 2%;
@@ -250,9 +254,9 @@ nav {
 }
 .flex {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   justify-content: space-around;
-  justify-content: space-between;
 }
 .work {
   margin-bottom: 10%;
@@ -285,4 +289,13 @@ tr:nth-child(even) {
 .space {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  .lets-team-up {
+    display: flex;
+    justify-content: center;
+  }
 }

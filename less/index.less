@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -116,22 +116,30 @@ ul{
 	border-bottom: 1px solid black;
 	margin-top: 2%;
 	padding-left: 3rem;
+	h1 {
+		margin-top: 2%;
+		font-size: 30px;
+	  }
+
+	  h3 {
+		margin-top: 2%;
+	  }
+
+	  img{
+		  margin-top: 2%;
+	  }
   }
 
   .top-section2{
 	  padding-left: 3rem;
+
+	  p {
+		margin-top: 1%;
+		font-size: 16px;
+	
+	  }
   }
 
-  .top-section h1 {
-	margin-top: 2%;
-	font-size: 30px;
-  }
-  .top-section h3 {
-	margin-top: 2%;
-  }
-  .top-section2 p {
-	margin-top: 1%;
-  }
   .button-parent {
 	margin-top: 2%;
   }
@@ -153,25 +161,24 @@ ul{
 	margin-bottom: 3%;
 	margin-right: 20%;
 	margin-left: 5%;
-	// background-color: #FFFAFA;
+	
+	h2 {
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	  }
   }
-  .child1 h2 {
-	text-align: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-  }
+  
   .child2 {
-	// background-color: #FFFAFA;
 	margin-top: 3%;
+
+	h2 {
+		margin: 2rem 2rem;
+		text-align: center;
+	}
   }
 
-  .child2 h2 {
-	  margin: 2rem 2rem;
-	  text-align: center;
-	// padding: 7rem;
-	// margin-top: 3%;
-	// margin-bottom: 3%;
-  }
+  
 
   .middle-section {
 	display: flex;
@@ -194,10 +201,10 @@ ul{
 }
 
 .flex{
-	display: flex;
+	.space();
 	flex-direction: column;
 	justify-content: space-around;
-	justify-content: space-between;
+	
 }
 
 	.work{
@@ -243,19 +250,12 @@ table {
 	justify-content: space-between;
 }
 
+@media(max-width:500px){
+	nav {
+		flex-direction: column;
+	}
 
-// .years{
-// 	.flex();
-// }
-// .company{
-// 	.flex();
-// }
-
-// .title{
-// 	.flex();
-// }
-
-// .tech-used{
-// 	.flex();
-// }
-
+	.lets-team-up{
+		.center();
+	}
+}
