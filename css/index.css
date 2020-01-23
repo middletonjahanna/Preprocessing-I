@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid red ;
+  border: 1px solid red;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -148,10 +148,11 @@ h4 {
   color: black;
 }
 p {
-  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
 }
 ul {
   font-size: 16px;
+  font-family: 'Dosis', sans-serif;
 }
 .margin {
   margin-top: 3%;
@@ -214,23 +215,23 @@ nav {
   border-radius: 12px;
 }
 .child1 {
+  font-size: 20px;
   margin-top: 3%;
   margin-bottom: 3%;
   margin-right: 20%;
   margin-left: 5%;
 }
 .child1 h2 {
+  text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .child2 {
   margin-top: 3%;
-  margin-bottom: 3%;
-  margin-right: 25%;
-  padding: 5%;
 }
 .child2 h2 {
   margin: 2rem 2rem;
+  text-align: center;
 }
 .middle-section {
   display: flex;
@@ -274,6 +275,8 @@ tr:nth-child(even) {
 .main-footer {
   display: flex;
   justify-content: center;
+  margin-top: 20%;
+  background-color: #778899;
 }
 .center {
   display: flex;
