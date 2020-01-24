@@ -107,6 +107,16 @@ ul{
 	padding: 2%;
 	margin-left: 60%;
 	background-color: #dcdcdc;
+
+	@media(max-width:500px){
+		nav {
+			flex-direction: column;
+		}
+	
+		.lets-team-up{
+			.center();
+		}
+	}
 	
   }
   .main-content {
@@ -228,10 +238,23 @@ table {
 	background-color: #dddddd;
   }
 
+.bottom-contact{
+	display: flex;
+	justify-content: left;
+	margin-bottom: 0.5%;
+	background-color: #778899;
+	justify-content: space-between;
+	
+	h4{
+		font-size: 12px;
+		color: @seashell;
+	}
+}
+
 .main-footer{
 	display: flex;
 	justify-content: center;
-	margin-top: 20%;
+	// margin-top: 20%;
 	background-color: #778899;
 }
 
@@ -250,12 +273,6 @@ table {
 	justify-content: space-between;
 }
 
-@media(max-width:500px){
-	nav {
-		flex-direction: column;
-	}
 
-	.lets-team-up{
-		.center();
-	}
-}
+
+
